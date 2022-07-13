@@ -1,0 +1,27 @@
+include stdioh
+include hashTablehashTableh
+include oneginSortTexth
+include oneginFormatFileh
+const char text  maincpp
+const char formText  formTexttxt
+int main 
+FormFile text formText
+sizet sizeBuf  GetSizeBuf formText
+char buffer  CreateBuf sizeBuf formText
+sizet numberLines  NumberLines buffer sizeBuf
+struct pointStr strings  CrtorStrs numberLines sizeBuf buffer
+CHashTbl t int numberLines  
+for int i   i  int numberLines i
+tinsert stringsistr
+const char word  Include
+printf s found d timesn word tcountElem word
+for int i   i   i
+tinsert i
+for int i   i   i
+tinsert i
+for int i   i   i
+tdel i
+tdump 
+free buffer
+free strings
+return 

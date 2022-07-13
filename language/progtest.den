@@ -1,0 +1,57 @@
+##
+f = 4;
+
+f = f - 3;
+f = f - 1;
+
+3 + 2 - 2;
+g;
+g = 2;
+g = 1;
+
+output g;        
+f = 1 < 2;
+
+
+input f;
+output r;
+
+
+#output f;
+#output f; 
+
+if (f)                          #if 
+{
+    first = 4;                  #new var
+    y = first + 5;
+    output first;               
+    output y;
+
+    y = y - first * first;
+    output first;
+    
+    if (first < 9)
+    {   
+        output y;
+    };
+};
+##
+##
+x = 1;
+y = 5;
+
+for (x; 10; 1)
+{
+    output x;
+};
+##
+
+x = 1;
+y = 10;
+while (x < y)
+{
+    output x;
+    x = x + 1;
+};
+$
+
